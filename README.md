@@ -33,3 +33,11 @@ rostopic echo /mavros/vision_pose/pose is not published.
 * vision_to_mavros node: roslaunch vision_to_mavros t265_tf_to_mavros.launch
 rostopic echo /mavros/vision_pose/pose should now show pose data from the T265.
 rostopic hz /mavros/vision_pose/pose should show that the topic is being published at 30Hz.
+
+
+
+
+
+![](https://drive.google.com/file/d/1p58XI-QeLH9TF1vWI56L08GvqPaiJiQ2/view?usp=share_link)
+
+
