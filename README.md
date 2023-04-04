@@ -1,19 +1,22 @@
-# Configure ArduPilot
+# Uses VIO tracking camera such as the Intel RealSense T265 used with ROS to facilitate non-GPS flight.
+
+
+## Configure ArduPilot
 
 Connect to the autopilot with a ground station (i.e. Mission Planner) and check that the following parameters are set:
 For ArduPilot-4.1 (and later):
 
 
 
-**AHRS_EKF_TYPE** = 3 (EKF3)
-**EK2_ENABLE** = 0 (disabled)
-**EK3_ENABLE** = 1 (enabled)
-**EK3_SRC1_POSXY** = 6 (ExternalNav)
-**EK3_SRC1_VELXY** = 6 (ExternalNav)
-**EK3_SRC1_POSZ** = 1 (Baro which is safer because of the camera’s weakness to high vibrations)
-**EK3_SRC1_VELZ** = 6 (ExternalNav)
-**GPS_TYPE** = 0 to disable the GPS
-**VISO_TYPE** = 2 (IntelT265)
+* **AHRS_EKF_TYPE** = 3 (EKF3)
+* **EK2_ENABLE** = 0 (disabled)
+* **EK3_ENABLE** = 1 (enabled)
+* **EK3_SRC1_POSXY** = 6 (ExternalNav)
+* **EK3_SRC1_VELXY** = 6 (ExternalNav)
+* **EK3_SRC1_POSZ** = 1 (Baro which is safer because of the camera’s weakness to high vibrations)
+* **EK3_SRC1_VELZ** = 6 (ExternalNav)
+* **GPS_TYPE** = 0 to disable the GPS
+* **VISO_TYPE** = 2 (IntelT265)
 
 If you wish to use the camera’s heading:
 
