@@ -38,6 +38,6 @@ rostopic hz /mavros/vision_pose/pose should show that the topic is being publish
 
 
 
-![](https://github.com/siddharth-w/gifs/blob/main/20220710_191316.mp4)
+![](https://github.com/siddharth-w/gifs/blob/main/ezgif.com-video-to-gif.gif)
 
 
